@@ -1,0 +1,258 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 719x;
+    margin: auto;
+    border: 5px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+#topbox {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+}
+
+#shield {
+    width: 51px;
+    height: 57px;
+    background-color: black;
+    position: absolute;
+    z-index: 11;
+    left: 3.2%;
+}
+
+#shield-text {
+    font-size: 15px;
+    position: absolute;
+    padding-left: 4px;
+    left: 8%;
+    border: 3px solid;
+    border-color: black;
+    border-left-color: white;
+    z-index: 11;
+    color: white;
+}
+
+#about {
+    font-size: 20px;
+    top: 25%;
+    position: absolute;
+    left: 16%;
+    z-index: 11;
+    color: white;
+    padding-left: 32px;
+    border: 3px solid;
+    border-color: black;
+    border-left-color: white;
+}
+
+#btn-seemore {
+    font-size: 16px;
+    top: 15%;
+    position: absolute;
+    left: 105%;
+    z-index: 11;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
+#btn-seemore :hover {
+    color: goldenrod;
+}
+
+.container {
+    position: absolute;
+    top: 125%;
+    left: 55%;
+    height: 120px;
+    width:100px;
+    border: 1px solid transparent;
+    border-radius: 2%;
+    background-color: black;
+    z-index: 12;
+    display: none;
+}
+
+#container-text {
+    font-size: 17px;
+}
+
+#where {
+    font-size: 20px;
+    top: 25%;
+    position: absolute;
+    left: 34%;
+    z-index: 11;
+    color: white;
+    padding-left: 35px;
+    border: 3px solid;
+    border-color: black;
+    border-left-color: white;
+}
+
+#btn-seemore2 {
+    font-size: 16px;
+    top: 15%;
+    position: absolute;
+    left: 106%;
+    z-index: 11;
+    color: white;
+    cursor: pointer;
+    display: block
+}
+
+#btn-seemore2 :hover {
+    color: goldenrod;
+}
+
+#activ {
+    font-size: 20px;
+    top: 25%;
+    position: absolute;
+    left: 50%;
+    z-index: 11;
+    color: white;
+    padding-left: 35px;
+    border: 3px solid;
+    border-color: black;
+    border-left-color: white;
+}
+
+#btn-seemore3 {
+    font-size: 16px;
+    top: 15%;
+    position: absolute;
+    left: 106%;
+    z-index: 11;
+    color: white;
+    cursor: pointer;
+    display: block
+}
+
+#btn-seemore3 :hover {
+    color: goldenrod;
+}
+
+#culture {
+    font-size: 20px;
+    top: 25%;
+    position: absolute;
+    left: 64%;
+    z-index: 11;
+    color: white;
+    padding-left: 35px;
+    border: 3px solid;
+    border-color: black;
+    border-left-color: white;
+}
+
+#btn-seemore4 {
+    font-size: 16px;
+    top: 15%;
+    position: absolute;
+    left: 105%;
+    z-index: 11;
+    color: white;
+    cursor: pointer;
+    display: block
+}
+
+#btn-seemore4 :hover {
+    color: goldenrod;
+}
+
+#contact {
+    font-size: 20px;
+    padding-left: 35px;
+    border: 3px solid;
+    border-color: black;
+    border-left-color: white;
+    position: absolute;
+    left: 83%;
+    z-index: 11;
+    color: white;
+    top: 25%;
+}
+
+#btn-seemore5 {
+    font-size: 16px;
+    top: 15%;
+    position: absolute;
+    left: 106%;
+    z-index: 11;
+    color: white;
+    cursor: pointer;
+    display: block
+}
+
+#btn-seemore5 :hover {
+    color: goldenrod;
+}
+
+#travel {
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    left: 5%;
+    color: black;
+    opacity: 90%;
+    font-size: 45px;
+    -webkit-text-stroke: 0.2px goldenrod;
+}
+
+#travel-valinor {
+    position: absolute;
+    top: -46%;
+    left: 95%;
+    color: goldenrod;
+    font-size: 140px;
+}
+
+#travel2 {
+    position: absolute;
+    z-index: 10;
+    top: 42%;
+    left: 6%;
+    color: white;
+    opacity: 90%;
+    font-size: 24px;
+    -webkit-text-stroke: 0.2px goldenrod;
+}
+
+.background-slide {
+    display: flex;
+    width: 100%;
+    height: 719px;
+}
+
+#prevbtn {
+    position: absolute;
+    top: 45%;
+    opacity: 70%;
+    z-index: 10;
+    left: 2%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#nextbtn {
+    position: absolute;
+    top: 45%;
+    opacity: 70%;
+    z-index: 10;
+    right: 2%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
