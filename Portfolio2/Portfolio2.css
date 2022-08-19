@@ -1,0 +1,340 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#blackground {
+    background-image: url("https://1.bp.blogspot.com/-2SUGyvDsyI0/X9RfvHn23EI/AAAAAAABBlQ/kZS9PIGJzZYO3vAe5cPWBt3xv9t9vGxXACLcBGAsYHQ/w1600/mask_totem_smoke_192795_2560x1440.jpg");
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 1100px;
+    z-index: 1;
+}
+
+
+.text{
+    color: white;
+}
+
+
+.card {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    height: 800px;
+    width: 679px;
+    background-color: black;
+    border-radius: 2%;
+    z-index: 2;
+}
+
+
+#profileimage {
+    position: absolute;
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    left: 490px;
+    top: 75px;
+    z-index: 11;
+    opacity: 0%;
+}
+
+
+#cardtext {
+  visibility: visible;
+}
+
+
+/* first card */
+
+/* hi stats */
+
+#hi {
+bottom: -50px;
+left: 50px;
+height: 200px;
+white-space: nowrap;
+overflow: hidden; 
+font-family: 'Open Sans', sans-serif; 
+font-size: 110px;
+color: white;
+position: relative;
+z-index: 11;
+}
+  
+#border {
+border-bottom: solid 90px white;
+position: absolute;
+bottom: 79px;
+right: -5px;
+width: 40px;
+visibility: visible;
+z-index: 11;
+}
+  
+/* hi animations */
+
+#hi {
+animation: animated-text 0.1s steps(30,end) 2s 1 normal both;
+}
+  
+#border {
+animation: animated-cursor 600ms steps(30,end);
+animation-iteration-count: infinite;
+}
+
+@keyframes animated-text{
+from{width: 0;}
+to{width: 190px;}
+}
+  
+@keyframes animated-cursor{
+from{border-bottom-color: white;}
+to{border-bottom-color: transparent;}
+}
+
+/*how stats*/
+
+#how {
+left: 50px;
+bottom: -20px;
+height: 200px;
+white-space: nowrap;
+overflow: hidden; 
+font-family: 'Open Sans', sans-serif; 
+font-size: 40px;
+color: white;
+position: relative;
+z-index: 11;
+}
+
+#border2 {
+border-bottom: solid 40px white;
+position: absolute;
+right: -5px;
+bottom: 155px;
+width: 25px;
+visibility: visible;
+z-index: 11;
+}
+
+/* how animations */
+
+#how {
+animation: animated-text2 0.15s steps(30,end) 4s 1 normal both
+}
+  
+#border2 {
+animation: animated-cursor2 600ms steps(30,end);
+animation-iteration-count: infinite;
+}
+  
+@keyframes animated-text2{
+from{width: 0;}
+to{width: 390px;}
+}
+  
+@keyframes animated-cursor2{
+from{border-bottom-color: white;}
+to{border-bottom-color: transparent;}
+}
+
+/* dear stats */
+
+#dear {
+left: 50px;
+bottom: 130px;
+height: 200px;
+white-space: nowrap;
+overflow: hidden; 
+font-family: 'Open Sans', sans-serif; 
+font-size: 40px;
+color: white;
+position: relative;
+z-index: 11;
+}
+
+
+#border3 {
+ border-bottom: solid 40px white;
+ position: absolute;
+ bottom: 155px;
+ right: 20px;
+ width: 20px;
+ z-index: 11;
+}
+
+/*dear animations */
+      
+#dear {
+ animation: animated-text3 0.15s steps(30,end) 5s 1 normal both
+}
+      
+#border3 {
+ animation: animated-cursor3 600ms steps(30,end);
+ animation-iteration-count: infinite;
+}
+      
+@keyframes animated-text3{
+ from{width: 0;}
+ to{width: 320px;}
+}
+      
+@keyframes animated-cursor3{
+ from{border-bottom-color: white;}
+ to{border-bottom-color: transparent;}
+}
+
+/* second card */
+  
+#cardtext2 {
+ visibility: hidden;
+ left: 0px;
+ top: 0px;
+}
+
+/* hope stats */
+
+#hope {
+  position: absolute;
+  font-size: 50px;
+  bottom: 650px;
+  left: 60px;
+  font-family: 'Open Sans', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 11;
+}
+
+  #border4 {
+  border-bottom: solid 50px white;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 30px;
+  z-index: 11;
+}
+
+/* hope animations */
+
+#hope {
+  animation: animated-text4 0.15s steps(30,end) 8s 1 normal both
+}
+
+#border4 {
+   animation: animated-cursor4 600ms steps(30,end);
+   animation-iteration-count: infinite;
+}
+
+@keyframes animated-text4{
+  from{width: 0px;}
+  to{width: 320px;}
+}
+
+@keyframes animated-cursor4{
+  from{border-bottom-color: white;}
+  to{border-bottom-color: transparent;}
+}
+
+/* find stats */
+
+#find {
+ position: absolute;
+ font-size: 50px;
+ bottom: 580px;
+ left: 64px;
+ font-family: 'Open Sans', sans-serif;
+ white-space: nowrap;
+ overflow: hidden;
+ z-index: 11;
+}
+
+#border5 {
+  border-bottom: solid 50px white;
+  position: absolute;
+  bottom: 10px;
+  right: 37px;
+  width: 28px;
+  z-index: 11;
+}
+
+/* find animations */
+
+#find {
+  animation: animated-text5 0.18s steps(30,end) 8.8s 1 normal both
+}
+
+#border5{
+   animation: animated-cursor5 600ms steps(30,end);
+   animation-iteration-count: infinite;
+}
+
+@keyframes animated-text5{
+  from{width: 0;}
+  to{width: 410px;}
+}
+
+@keyframes animated-cursor5{
+  from{border-bottom-color: white;}
+  to{border-bottom-color: transparent;}
+}
+
+/* youre stats */
+
+#youre {
+  position: absolute;
+  font-size: 50px;
+  bottom: 505px;
+  left: 65px;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 11;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#border6 {
+  border-bottom: solid 50px white;
+  position: absolute;
+  bottom: 13px;
+  right: 19px;
+  width: 30px;
+  z-index: 11;
+}
+
+/* youre ainmations */
+
+#youre {
+  animation: animated-text6 0.18s steps(30,end) 9.3s 1 normal both
+}
+
+#border6 {
+   animation: animated-cursor6 600ms steps(30,end);
+   animation-iteration-count: infinite;
+}
+
+
+@keyframes animated-text6{
+  from{width: 0;}
+  to{width: 460px;}
+}
+
+@keyframes animated-cursor6{
+  from{border-bottom-color: white;}
+  to{border-bottom-color: transparent;}
+}
+
+
+/* third card */
+
+#cardtext3 {
+  visibility: hidden;
+  left: 0px;
+  top: 0px;
+  z-index: 13;
+ }

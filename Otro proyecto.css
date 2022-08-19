@@ -70,13 +70,14 @@
     color: goldenrod;
 }
 
-.container {
+#container {
     position: absolute;
     top: 125%;
     left: 55%;
-    height: 120px;
+    height: 110px;
     width:100px;
-    border: 1px solid transparent;
+    border: 3px solid goldenrod;
+    border-top: transparent;
     border-radius: 2%;
     background-color: black;
     z-index: 12;
@@ -85,6 +86,24 @@
 
 #container-text {
     font-size: 17px;
+    line-height: 35px;
+    color: white;
+}
+
+#history {
+    cursor: pointer;
+}
+
+#echo {
+    cursor: pointer;
+}
+
+#vala {
+    cursor: pointer;
+}
+
+#container-text :hover {
+    color: goldenrod;
 }
 
 #where {
@@ -112,6 +131,46 @@
 }
 
 #btn-seemore2 :hover {
+    color: goldenrod;
+}
+
+#container2 {
+    position: absolute;
+    top: 125%;
+    left: 42%;
+    height: 145px;
+    width:100px;
+    border: 3px solid goldenrod;
+    border-top: transparent;
+    border-radius: 2%;
+    background-color: black;
+    z-index: 12;
+    display: none;
+}
+
+#container2-text {
+    font-size: 17px;
+    line-height: 35px;
+    color: white;
+}
+
+#valmar {
+    cursor: pointer;
+}
+
+#alqua {
+    cursor: pointer;
+}
+
+#tirion {
+    cursor: pointer;
+}
+
+#avallone {
+    cursor: pointer;
+}
+
+#container2-text :hover {
     color: goldenrod;
 }
 
@@ -143,6 +202,46 @@
     color: goldenrod;
 }
 
+#container3 {
+    position: absolute;
+    top: 125%;
+    left: 32%;
+    height: 145px;
+    width:100px;
+    border: 3px solid goldenrod;
+    border-top: transparent;
+    border-radius: 2%;
+    background-color: black;
+    z-index: 12;
+    display: none;
+}
+
+#container3-text {
+    font-size: 17px;
+    line-height: 35px;
+    color: white;
+}
+
+#tour {
+    cursor: pointer;
+}
+
+#boat {
+    cursor: pointer;
+}
+
+#camping {
+    cursor: pointer;
+}
+
+#hiking {
+    cursor: pointer;
+}
+
+#container3-text :hover {
+    color: goldenrod;
+}
+
 #culture {
     font-size: 20px;
     top: 25%;
@@ -171,6 +270,43 @@
     color: goldenrod;
 }
 
+#container4 {
+    position: absolute;
+    top: 125%;
+    left: 10%;
+    height: 135px;
+    width: 250px;
+    border: 3px solid goldenrod;
+    border-top: transparent;
+    border-radius: 2%;
+    background-color: black;
+    z-index: 12;
+    display: none;
+}
+
+#container4-text {
+    font-size: 17px;
+    line-height: 35px;
+    color: white;
+}
+
+#people {
+    cursor: pointer;
+}
+
+#languages {
+    cursor: pointer;
+}
+
+#holidays {
+    cursor: pointer;
+}
+
+
+#container4-text :hover {
+    color: goldenrod;
+}
+
 #contact {
     font-size: 20px;
     padding-left: 35px;
@@ -196,6 +332,38 @@
 }
 
 #btn-seemore5 :hover {
+    color: goldenrod;
+}
+
+#container5 {
+    position: absolute;
+    top: 125%;
+    left: 10%;
+    height: 75px;
+    width: 170px;
+    border: 3px solid goldenrod;
+    border-top: transparent;
+    border-radius: 2%;
+    background-color: black;
+    z-index: 12;
+    display: none;
+}
+
+#container5-text {
+    font-size: 17px;
+    line-height: 35px;
+    color: white;
+}
+
+#mail {
+    cursor: pointer;
+}
+
+#number {
+    cursor: pointer;
+}
+
+#container5-text :hover {
     color: goldenrod;
 }
 
@@ -232,7 +400,7 @@
 .background-slide {
     display: flex;
     width: 100%;
-    height: 719px;
+    height: 735px;
 }
 
 #prevbtn {
